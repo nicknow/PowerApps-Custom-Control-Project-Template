@@ -13,7 +13,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
-# Custom Controls by the Financial Services HiPo Team in Canada
+# PowerApps Custom Control Project Template
 
 This is a PowerApps custom control project template leveraging node.js.  Custom controls were built using PowerApps Control Framework (PCF).
 

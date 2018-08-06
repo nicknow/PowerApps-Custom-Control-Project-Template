@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+	<control namespace="CC" constructor="LifeStage" version="1.0.10" display-name-key="res_LifeStageControl_Name" 
+		description-key="res_LifeStageControl_Desc" >
+		<modes>
+			<read />
+			<edit />
+		</modes>
+		<AvailableOn>
+			<web classic="disable" />
+			<phone />
+			<tablet />
+		</AvailableOn>
+		<type-group name="AllTypes">
+			<type>Whole.None</type>
+			<type>Whole.Duration</type>
+			<type>Whole.TimeZone</type>
+			<type>Whole.Language</type>
+			<type>TwoOptions</type>
+			<type>DateAndTime.DateOnly</type>
+			<type>DateAndTime.DateAndTime</type>
+			<type>Decimal</type>
+			<type>Enum</type>
+			<type>FP</type>
+			<type>Lookup.Simple</type>
+			<type>Lookup.Customer</type>
+			<type>Lookup.Owner</type>
+			<type>Lookup.PartyList</type>
+			<type>Lookup.Regarding</type>
+			<type>Multiple</type>
+			<type>Currency</type>
+			<type>OptionSet</type>
+			<type>SingleLine.Email</type>
+			<type>SingleLine.Text</type>
+			<type>SingleLine.TextArea</type>
+			<type>SingleLine.URL</type>
+			<type>SingleLine.Ticker</type>
+			<type>SingleLine.Phone</type>
+		</type-group>
+		<type-group name="NumberValue">
+			<type>Whole.None</type>
+			<type>Decimal</type>
+			<type>Currency</type>
+			<type>FP</type>
+		</type-group>
+		<type-group name="TextValue">
+			<type>SingleLine.Text</type>
+			<type>SingleLine.TextArea</type>
+		</type-group>
+		
+		<property name="LifeStage" required="true" display-name-key="res_LifeStage" description-key="res_LifeStage_Desc" 
+			usage="bound" of-type-group="AllTypes" />
+
+		<resources>
+			<code path="CC.LifeStage.js" order="2" />
+			<css path="CC.LifeStage.css" order="1" />
+			<resx path="strings/Strings.1033.resx" version="1.0.0" />
+		</resources>
+	</control>
+</manifest>

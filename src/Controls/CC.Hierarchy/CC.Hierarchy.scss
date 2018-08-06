@@ -1,0 +1,74 @@
+﻿.CC.HierarchyControl {
+
+	padding-bottom: 2em;
+
+	ul {
+		text-align: center;
+	}
+
+	li {
+		display: inline-block;
+		vertical-align: top;
+		margin: 1.5em 0em 0em 0em;
+
+		&:first-child {
+			margin-right: 1.5em;
+		}
+	}
+
+	.HierarchyElementDivLink {
+		padding: 1em;
+		background-color: #efefef;
+		
+		border-top-color: rgb(59, 121, 183);
+		border-top-style: solid;
+		border-top-width: 3.5px;
+
+		border-radius: 1px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		transition: all 200ms ease-out;
+
+		&.Current{
+			background-color: #eef;
+		}
+
+		&:hover {
+			box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+		}
+
+		.HierarchyElementDivLine {
+			width: 50%;
+
+			.HierarchyElementDivLine2nd {
+				top: -2.6em;
+				position: absolute;
+				position: relative;
+				float: right;
+
+				.HierarchyElementDivLine3rd {
+					position: absolute;
+					height: 1.4em;
+
+					&:before {
+						content: '\22EE';
+					}
+				}
+			}
+
+		}
+	}
+
+	a {
+		font-size: 1rem;
+		font-family: "Segoe UI Regular",
+		SegoeUI, "Segoe UI";
+		color: rgb(49, 95, 162);
+		display: inline-block;
+		text-decoration: none;
+		font-weight: bold;
+		&:hover {
+			text-decoration: underline;
+    		cursor: pointer;
+		}
+	}
+}

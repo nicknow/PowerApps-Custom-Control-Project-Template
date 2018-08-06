@@ -1,0 +1,63 @@
+{
+	"rules": {
+		"class-name": true,
+		"curly": true,
+		"eofline": false,
+		"forin": false,
+		"indent": false,
+		"label-position": true,
+		//"label-undefined": true,
+		"max-line-length": [
+			true,
+			550
+		],
+		"no-arg": true,
+		"no-bitwise": false,
+		"no-console": false,
+		"no-construct": true,
+		"no-constructor-vars": false,
+		"no-debugger": false,
+		//"no-duplicate-key": true,
+		"no-duplicate-variable": true,
+		"no-empty": true,
+		"no-eval": true,
+		"no-string-literal": false,
+		"no-switch-case-fall-through": true,
+		"no-trailing-whitespace": false,
+		"no-unused-expression": true,
+		"no-unused-variable": false,
+		//"no-unreachable": true,
+		"no-use-before-declare": false,
+		"no-var-requires": false,
+		"one-line": [
+			true,
+			"check-catch"
+		],
+		"quotemark": [
+			false,
+			"single"
+		],
+		"semicolon": true,
+		"triple-equals": [
+			false,
+			"allow-null-check"
+		],
+		"typedef": [
+			true,
+			"callSignature",
+			"indexSignature",
+			"parameter",
+			"propertySignature",
+			"variableDeclarator",
+			"memberVariableDeclarator"
+		],
+		"use-strict": false,
+		"variable-name": [
+			false,
+			"allow-leading-underscore"
+		],
+		"whitespace": [
+			false
+		]
+	}
+}

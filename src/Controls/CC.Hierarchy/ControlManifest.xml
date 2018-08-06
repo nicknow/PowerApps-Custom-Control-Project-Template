@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+	<control namespace="CC" constructor="HierarchyControl" version="1.0.20" display-name-key="res_HierarchyControl_Name" 
+		description-key="res_HierarchyControl_Desc" >
+		<modes>
+			<read />
+			<edit />
+		</modes>
+		<AvailableOn>
+			<web classic="disable" />
+			<phone />
+			<tablet />
+		</AvailableOn>
+		<type-group name="AllTypes">
+			<type>Whole.None</type>
+			<type>Whole.Duration</type>
+			<type>Whole.TimeZone</type>
+			<type>Whole.Language</type>
+			<type>TwoOptions</type>
+			<type>DateAndTime.DateOnly</type>
+			<type>DateAndTime.DateAndTime</type>
+			<type>Decimal</type>
+			<type>Enum</type>
+			<type>FP</type>
+			<type>Lookup.Simple</type>
+			<type>Lookup.Customer</type>
+			<type>Lookup.Owner</type>
+			<type>Lookup.PartyList</type>
+			<type>Lookup.Regarding</type>
+			<type>Multiple</type>
+			<type>Currency</type>
+			<type>OptionSet</type>
+			<type>SingleLine.Email</type>
+			<type>SingleLine.Text</type>
+			<type>SingleLine.TextArea</type>
+			<type>SingleLine.URL</type>
+			<type>SingleLine.Ticker</type>
+			<type>SingleLine.Phone</type>
+		</type-group>
+		<type-group name="NumberValue">
+			<type>Whole.None</type>
+			<type>Decimal</type>
+			<type>Currency</type>
+			<type>FP</type>
+		</type-group>
+		<type-group name="TextValue">
+			<type>SingleLine.Text</type>
+			<type>SingleLine.TextArea</type>
+		</type-group>
+
+		<!--
+		<data-set name="Entity" display-name-key="CC_Entity">
+			<property-set name="ms_contactid" required="true" display-name-key="res_ms_contactid" 
+				description-key="res_ms_contactid_Desc" usage="bound" of-type-group="AllTypes" />
+		</data-set>-->
+		<property name="Parent" required="true" display-name-key="res_Parent" description-key="res_Parent_Desc" 
+			usage="bound" of-type-group="AllTypes" />
+		
+		<resources>
+			<code path="CC.Hierarchy.js" order="1" />
+			<css path="CC.Hierarchy.css" order="1" />
+			<resx path="strings/Strings.1033.resx" version="1.0.0" />
+		</resources>
+	</control>
+</manifest>

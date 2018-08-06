@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="7.0.0000.0" SolutionPackageVersion="7.0" languagecode="1033" generatedBy="OnPremise" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>CC</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Custom Controls by the Financial Services HiPo Team in Canada" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="This solution installs a set of custom controls for financial services demos" languagecode="1033" />
+    </Descriptions>
+    <Version>1.0.1.68</Version>
+    <Managed>1</Managed>
+    <Publisher>
+      <UniqueName>microsoft</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Microsoft" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl>http://crm.dynamics.com</SupportingWebsiteUrl>
+      <CustomizationPrefix>ms</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>19235</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City>Redmond</City>
+          <County xsi:nil="true"></County>
+          <Country>US</Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1>One Microsoft Way</Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode>98052</PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince>Washington</StateOrProvince>
+          <Telephone1>1-800-Microsoft(642-7676)</Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="66" schemaName="CC.HierarchyControl" />
+      <RootComponent type="66" schemaName="CC.LifeStage" />
+    </RootComponents>
+    <MissingDependencies />
+  </SolutionManifest>
+</ImportExportXml>

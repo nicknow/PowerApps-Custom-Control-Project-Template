@@ -2,6 +2,8 @@
 
 CC.LifeStage control renders widget for Option Set property.
 
+![LifeStage](img/sample.png)]
+
 Control expects these options set items:
 ```javascript
 [{

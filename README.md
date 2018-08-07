@@ -40,3 +40,16 @@ After successful running you will receive `solution.zip`.  Use `solution.zip` to
 # Controls
 1. [CC.Hierarchy](src/Controls/CC.Hierarchy/README.md)
 1. [CC.LifeStage](src/Controls/CC.LifeStage/README.md)
+
+
+![Hierarchy](src/Controls/CC.Hierarchy/img/sample.png =200x200)
+![LifeStage](src/Controls/CC.LifeStage/img/sample.png =200x200)
+
+
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+Reference-style: 
+![alt text][logo]
+
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"

@@ -20,32 +20,6 @@
       <FileName>/Controls/CC.LifeStage/ControlManifest.xml</FileName>
     </CustomControl>
 
-    <CustomControl>
-      <Name>JS_AngularJSFlipControl</Name>
-      <FileName>/Controls/JS_AngularJSFlipControl/ControlManifest.xml</FileName>
-    </CustomControl>
-    <CustomControl>
-      <Name>JS_HelloWorldControl</Name>
-      <FileName>/Controls/JS_HelloWorldControl/ControlManifest.xml</FileName>
-    </CustomControl>
-
-    <CustomControl>
-      <Name>NotificationTile</Name>
-      <FileName>/Controls/NotificationTile/ControlManifest.xml</FileName>
-    </CustomControl>
-    <CustomControl>
-      <Name>PeopleTiles</Name>
-      <FileName>/Controls/PeopleTiles/ControlManifest.xml</FileName>
-    </CustomControl>
-	<CustomControl>
-      <Name>ProductTiles</Name>
-      <FileName>/Controls/ProductTiles/ControlManifest.xml</FileName>
-    </CustomControl>
-    <CustomControl>
-      <Name>RelationshipTile</Name>
-      <FileName>/Controls/RelationshipTile/ControlManifest.xml</FileName>
-    </CustomControl>
-
   </CustomControls>
   <Languages>
     <Language>1033</Language>

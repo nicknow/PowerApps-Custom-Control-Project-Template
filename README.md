@@ -23,7 +23,7 @@ This is a PowerApps custom control project template leveraging node.js.  Custom 
 
 
 ## GIT Cheatsheet
-1. `git clone https://github.com/Microsoft/PowerApps-Custom-Control-Project-Template.git` - to load code from repository
+1. `git clone https://github.com/nicknow/PowerApps-Custom-Control-Project-Template.git` - to load code from repository
 1. `git checkout -b NewBranch` - to create a new branch NewBranch
 1. `git add .` - to stage changes 
 1. `git commit -m firstCommit` - to commit changes
